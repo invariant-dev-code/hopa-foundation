@@ -1,0 +1,75 @@
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  // Home page
+  .home-page {
+    // Welcome
+    #welcome {
+      .buttons {
+        text-align: center;
+        .btn {
+          &:nth-child(1) {
+            margin-bottom: 10px !important;
+          }
+        }
+      }
+    }
+    // Join
+    #join {
+      .map {
+        margin-top: 25px;
+      }
+    }
+  }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  // Nav
+  nav {
+    .logo {
+      font-size: 17px !important;
+    }
+  }
+  // Home page
+  .home-page {
+    // Welcome
+    #welcome {
+      h1 {
+        font-size: 50px !important;
+        width: 100% !important;
+        text-align: center;
+      }
+      h4 {
+        width: 100% !important;
+        text-align: center;
+      }
+      .buttons {
+        text-align: center;
+        .btn {
+          &:nth-child(1) {
+            margin-right: 10px !important;
+          }
+        }
+      }
+    }
+    // Expect
+    #expect .expect {
+      margin-bottom: 25px;
+    }
+  }
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+}
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width

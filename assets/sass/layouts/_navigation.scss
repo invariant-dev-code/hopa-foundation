@@ -1,0 +1,15 @@
+@use "../utils/variables";
+// Nav
+nav {
+  img {
+    width: 50px;
+  }
+  .btn {
+    background-color: variables.$primary-color;
+    transition: background-color 0.5s;
+    &:hover {
+      background-color: variables.$second-color;
+    }
+    
+  }
+}
