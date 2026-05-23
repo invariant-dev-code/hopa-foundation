@@ -20,6 +20,19 @@
       }
     }
   }
+  .about-page {
+    // About, Values, Believe, Team & Contact
+    #about,
+    #values,
+    #believe,
+    #teamm,
+    #contact {
+      h1,
+      h2 {
+        font-size: 40px !important;
+      }
+    }
+  }
 }
 
 // Small devices (landscape phones, less than 768px)
@@ -58,6 +71,13 @@
     }
     // Expect
     #expect .expect {
+      margin-bottom: 25px;
+    }
+  }
+  // About
+  .about-page {
+    // Missions
+    #missions .mission {
       margin-bottom: 25px;
     }
   }

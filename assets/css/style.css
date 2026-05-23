@@ -12,6 +12,18 @@ body {
   .home-page #join .map {
     margin-top: 25px;
   }
+  .about-page #about h1,
+  .about-page #about h2,
+  .about-page #values h1,
+  .about-page #values h2,
+  .about-page #believe h1,
+  .about-page #believe h2,
+  .about-page #teamm h1,
+  .about-page #teamm h2,
+  .about-page #contact h1,
+  .about-page #contact h2 {
+    font-size: 40px !important;
+  }
 }
 @media (max-width: 991.98px) {
   nav .logo {
@@ -33,6 +45,9 @@ body {
     margin-right: 10px !important;
   }
   .home-page #expect .expect {
+    margin-bottom: 25px;
+  }
+  .about-page #missions .mission {
     margin-bottom: 25px;
   }
 }
@@ -208,6 +223,114 @@ nav .btn:hover {
 }
 .home-page #main #over li {
   background-color: #f59e0b;
+}
+
+.about-page #main #about {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("../images/photo-1504052434569-70ad5836ab65.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 100px 0;
+}
+.about-page #main #about h6 {
+  color: #f59e0b;
+}
+.about-page #main #about h1 {
+  font-size: 60px;
+}
+.about-page #main #hope {
+  padding: 80px 0;
+}
+.about-page #main #hope img,
+.about-page #main #hope .hope-content {
+  height: 400px;
+}
+.about-page #main #missions {
+  padding: 90px 0;
+}
+.about-page #main #missions .mission {
+  background-color: #383838;
+  height: 200px;
+}
+.about-page #main #missions .mission h6 {
+  color: #f59e0b;
+}
+.about-page #main #values {
+  padding: 110px 0;
+}
+.about-page #main #values h6,
+.about-page #main #values h3 {
+  color: #f59e0b;
+}
+.about-page #main #values h2 {
+  font-size: 50px;
+}
+.about-page #main #values h3 {
+  width: 25px;
+}
+.about-page #main #values .value {
+  height: 250px;
+  background-color: #383838;
+}
+.about-page #main #values .value i {
+  color: #f59e0b;
+}
+.about-page #main #values .value:hover {
+  border: 1px solid #f59e0b;
+}
+.about-page #main #believe h2 {
+  font-size: 50px;
+}
+.about-page #main #believe h6,
+.about-page #main #believe span {
+  color: #f59e0b;
+}
+.about-page #main #believe .believe {
+  height: 250px;
+  background-color: #383838;
+}
+.about-page #main #believe .believe i {
+  color: #f59e0b;
+}
+.about-page #main #team {
+  padding: 100px 0;
+}
+.about-page #main #team h2 {
+  font-size: 50px;
+}
+.about-page #main #team h6 {
+  color: #f59e0b;
+}
+.about-page #main #team img {
+  height: 450px;
+}
+.about-page #main #contact {
+  padding: 90px 0;
+}
+.about-page #main #contact h6,
+.about-page #main #contact i,
+.about-page #main #contact a {
+  color: #f59e0b;
+}
+.about-page #main #contact h2 {
+  font-size: 50px;
+}
+.about-page #main #contact i {
+  margin-right: 10px;
+}
+.about-page #main #contact form {
+  background-color: #383838;
+}
+.about-page #main #contact form input,
+.about-page #main #contact form select,
+.about-page #main #contact form textarea {
+  background-color: #383838;
+}
+.about-page #main #contact form .btn {
+  background-color: #f59e0b;
+  transition: background-color 0.5s;
+}
+.about-page #main #contact form .btn:hover {
+  background-color: #d97706;
 }
 
 #footer {
