@@ -24,6 +24,25 @@ body {
   .about-page #contact h2 {
     font-size: 40px !important;
   }
+  .watch-page #watch h1,
+  .watch-page #watch h2,
+  .watch-page #messages h1,
+  .watch-page #messages h2,
+  .watch-page #podcast h1,
+  .watch-page #podcast h2 {
+    font-size: 40px !important;
+  }
+  .watch-page #watch .image,
+  .watch-page #messages .image,
+  .watch-page #podcast .image {
+    margin-top: 20px;
+  }
+  .watch-page #live a {
+    margin-top: 20px;
+  }
+  .watch-page #podcast .right {
+    margin-top: 25px;
+  }
 }
 @media (max-width: 991.98px) {
   nav .logo {
@@ -330,6 +349,88 @@ nav .btn:hover {
   transition: background-color 0.5s;
 }
 .about-page #main #contact form .btn:hover {
+  background-color: #d97706;
+}
+
+.watch-page #main #watch {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../images/photo-1507692049790-de58290a4334.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 140px 0;
+}
+.watch-page #main #watch h1 {
+  font-size: 60px;
+}
+.watch-page #main #watch h6 {
+  color: #f59e0b;
+}
+.watch-page #main #watch .btn {
+  background-color: #f59e0b;
+  transition: background-color 0.5s;
+}
+.watch-page #main #watch .btn:hover {
+  background-color: #d97706;
+}
+.watch-page #main #watch .image img {
+  transition: transform 0.6s;
+}
+.watch-page #main #watch .image img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.watch-page #main #watch .image i {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.watch-page #main #live {
+  padding: 30px 0;
+}
+.watch-page #main #live i {
+  margin-right: 10px;
+}
+.watch-page #main #messages {
+  padding: 100px 0;
+}
+.watch-page #main #messages h2 {
+  font-size: 60px;
+}
+.watch-page #main #messages .card {
+  cursor: pointer;
+}
+.watch-page #main #messages .card h6 {
+  color: #f59e0b;
+}
+.watch-page #main #messages .card img {
+  transition: transform 0.6s;
+}
+.watch-page #main #messages .card img:hover {
+  transform: scale(1.1);
+}
+.watch-page #main #messages .card:hover h5 {
+  color: #f59e0b !important;
+}
+.watch-page #main #messages .card:hover i {
+  display: block !important;
+}
+.watch-page #main #messages .card i {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.watch-page #main #podcast {
+  padding: 100px 0;
+}
+.watch-page #main #podcast h2 {
+  font-size: 60px;
+}
+.watch-page #main #podcast h6 {
+  color: #f59e0b;
+}
+.watch-page #main #podcast .right {
+  background-color: #f59e0b;
+}
+.watch-page #main #podcast .right i {
   background-color: #d97706;
 }
 

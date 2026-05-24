@@ -33,6 +33,30 @@
       }
     }
   }
+  // Watch page
+  .watch-page {
+    // Watch, Messages & Podcast
+    #watch,
+    #messages,
+    #podcast {
+      h1,
+      h2 {
+        font-size: 40px !important;
+      }
+      .image {
+        margin-top: 20px;
+      }
+    }
+    // Live
+    #live {
+      a {
+        margin-top: 20px;
+      }
+    }
+    #podcast .right {
+      margin-top: 25px;
+    }
+  }
 }
 
 // Small devices (landscape phones, less than 768px)
