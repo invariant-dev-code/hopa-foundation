@@ -1,0 +1,91 @@
+@use "../utils/variables";
+
+.connect-page #main {
+  // Connect
+  #connect {
+    background-image: (
+      linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),
+      url("../images/photo-1529156069898-49953e39b3ac.jpg")
+    );
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 100px 0;
+    h6 {
+      color: variables.$primary-color;
+    }
+    h1 {
+      font-size: 60px;
+    }
+  }
+  // Visit
+  #visit {
+    padding: 90px 0;
+    h6,
+    i,
+    a {
+      color: variables.$primary-color;
+    }
+    h2 {
+      font-size: 50px;
+    }
+    i {
+      margin-right: 10px;
+    }
+    form {
+      background-color: variables.$third-color;
+      input,
+      select {
+        background-color: variables.$third-color;
+      }
+      .btn {
+        background-color: variables.$primary-color;
+        transition: background-color 0.5s;
+        &:hover {
+          background-color: variables.$second-color;
+        }
+      }
+    }
+  }
+  // Faq
+  #faq {
+    padding: 90px 0;
+  }
+  // Groups
+  #groups {
+    padding: 90px 0;
+    h6 {
+      color: variables.$primary-color;
+    }
+    h2 {
+      font-size: 60px;
+    }
+    .btn {
+      background-color: variables.$primary-color;
+      transition: background-color 0.5s;
+      &:hover {
+        background-color: variables.$second-color;
+      }
+    }
+  }
+  // Hopes
+  #hopes {
+    padding-top: 80px;
+    h6 {
+      color: variables.$primary-color;
+    }
+    h2 {
+      font-size: 60px;
+    }
+    .image,
+    .content {
+      height: 800px;
+    }
+    .btn {
+      background-color: variables.$primary-color;
+      transition: background-color 0.5s;
+      &:hover {
+        background-color: variables.$second-color;
+      }
+    }
+  }
+}

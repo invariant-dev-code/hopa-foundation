@@ -57,6 +57,29 @@
       margin-top: 25px;
     }
   }
+  // Connect page
+  .connect-page {
+    // Connect, Faq, Groups & Hopes
+    #connect,
+    #groups #visit,
+    #groups,
+    #hopes {
+      h1,
+      h2 {
+        font-size: 40px !important;
+      }
+    }
+    // Groups
+    #groups,
+    #hopes {
+      h6 {
+        margin-top: 20px;
+      }
+      .content {
+        height: 400px !important;
+      }
+    }
+  }
 }
 
 // Small devices (landscape phones, less than 768px)

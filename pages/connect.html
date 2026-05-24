@@ -1,0 +1,545 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hope City Church</title>
+    <link rel="icon" href="../assets/images/favicon.svg" />
+    <!-- Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="../assets/vendors/fontawesome/css/all.min.css"
+    />
+    <!-- Bootsrap css -->
+    <link
+      rel="stylesheet"
+      href="../assets/vendors/bootstrap/css/bootstrap.min.css"
+    />
+    <!-- Main css -->
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <!-- Bootsrap js -->
+    <script
+      src="../assets/vendors/bootstrap/js/bootstrap.bundle.min.js"
+      defer
+    ></script>
+    <!-- Main js -->
+    <script src="../assets/js/main.js" defer></script>
+  </head>
+  <body class="connect-page">
+    <!-- Header -->
+    <header id="header" class="py-2">
+      <div class="container">
+        <nav class="row justify-content-between align-items-center">
+          <div class="col-lg-3 col-md-4 text-center">
+            <a
+              class="logo link-light fw-bold fs-5 text-decoration-none"
+              href="../index.html"
+              ><img src="../assets/images/favicon.svg" alt="logo" /> Hope City
+              Church</a
+            >
+          </div>
+          <div class="col-lg-6 col-md-5">
+            <ul class="d-flex list-unstyled justify-content-center gap-4 m-0">
+              <li>
+                <a
+                  class="link-light text-decoration-none"
+                  href="../pages/about.html"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  class="link-light text-decoration-none"
+                  href="../pages/watch.html"
+                  >Watch</a
+                >
+              </li>
+              <li>
+                <a class="link-light text-decoration-none" href="connect.html"
+                  >Connect</a
+                >
+              </li>
+              <li>
+                <a class="link-light text-decoration-none" href="#">Give</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-3 text-lg-end text-center">
+            <a class="btn text-white" href="#">Plan Your Visit</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Main -->
+    <main id="main">
+      <!-- Connect -->
+      <section id="connect">
+        <div class="container">
+          <h6>Get Connected</h6>
+          <h1 class="text-white fw-bold">Find Your Place</h1>
+          <p class="text-white-50">
+            No matter where you are in your journey, there's a next step for you
+            at Hope City.
+          </p>
+        </div>
+      </section>
+      <!-- Visit -->
+      <section id="visit" class="bg-black">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <h6>First Time?</h6>
+              <h2 class="text-white fw-bold">Plan Your Visit</h2>
+              <p class="text-white-50">
+                We'd love to meet you! Fill out the form and we'll save you a
+                seat, have a welcome gift ready, and make sure someone is there
+                to answer any questions.
+              </p>
+              <ul class="list-unstyled">
+                <li class="d-flex align-items-center mb-2">
+                  <i
+                    class="fa-regular fa-clock bg-warning-subtle py-3 px-4 d-flex justify-content-center rounded-3"
+                  ></i>
+                  <div>
+                    <h5 class="text-white">Service Times</h5>
+                    <h5 class="text-white-50">Sundays at 9:00 AM & 11:00 AM</h5>
+                  </div>
+                </li>
+                <li class="d-flex align-items-center mb-2">
+                  <i
+                    class="fa-solid fa-location-dot bg-warning-subtle py-3 px-4 d-flex justify-content-center rounded-3"
+                  ></i>
+                  <div>
+                    <h5 class="text-white">Location</h5>
+                    <h5 class="text-white-50">1200 Grace Avenue, Austin, TX</h5>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <form class="p-5 rounded-4">
+                <h5 class="text-white text-white fw-bold">
+                  Let Us Know You're Coming!
+                </h5>
+                <div class="d-flex justify-content-between mb-2">
+                  <div>
+                    <label class="text-white form-label" for="name">Name</label>
+                    <input id="name" class="form-control" type="text" />
+                  </div>
+                  <div>
+                    <label class="text-white form-label" for="email"
+                      >Email</label
+                    >
+                    <input id="email" class="form-control" type="email" />
+                  </div>
+                </div>
+                <div>
+                  <label class="text-white d-block" for="subject"
+                    >Which service?
+                  </label>
+                  <select id="subject" class="form-select text-white mb-2">
+                    <option>Sunday 9:00 AM</option>
+                    <option>Sunday 11:00 AM</option>
+                  </select>
+                </div>
+                <div>
+                  <label class="text-white d-block" for="subject"
+                    >How many guests?
+                  </label>
+                  <select id="subject" class="form-select text-white mb-2">
+                    <option>Just me</option>
+                    <option>2 people</option>
+                    <option>3 people</option>
+                    <option>4 people</option>
+                    <option>5 or more</option>
+                  </select>
+                </div>
+                <div>
+                  <label class="text-white d-block" for="subject"
+                    >Do you have children?
+                  </label>
+                  <input id="yes" type="checkbox" />
+                  <label class="text-white" for="yes">Yes</label>
+                  <input id="no" type="checkbox" />
+                  <label class="text-white" for="no">No</label>
+                </div>
+
+                <input
+                  class="btn text-white fw-bold w-100 mt-3"
+                  type="submit"
+                  value="Save My Seat"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Faq -->
+      <section id="faq" class="bg-dark">
+        <div class="container">
+          <h2 class="text-white text-center mb-3">First Visit FAQs</h2>
+          <div class="accordion w-75 m-auto" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  What should I wear?
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <p>
+                    Come as you are! You'll see everything from jeans and
+                    t-shirts to dresses and suits. We want you to be
+                    comfortable.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  How long is the service?
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <p>
+                    Our services typically last about 70 minutes. We start with
+                    worship music, have announcements, then a message from one
+                    of our pastors.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Where do I park?
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <p>
+                    We have a main parking lot and additional street parking.
+                    First-time guests can park in our reserved spots near the
+                    main entrance.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  What about my kids?
+                </button>
+              </h2>
+              <div
+                id="collapseFour"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <p>
+                    Hope City Kids is available for birth through 5th grade
+                    during all services. Check-in opens 15 minutes before
+                    service. All volunteers are background checked
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Can I watch online instead?
+                </button>
+              </h2>
+              <div
+                id="collapseFive"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <p>
+                    Yes! We stream all our Sunday services live on our YouTube
+                    channel. You can also watch past messages anytime on our
+                    Watch page.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Groups -->
+      <section id="groups" class="bg-black">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6">
+              <img
+                class="w-100 h-100 rounded-4"
+                src="../assets/images/photo-1529156069898-49953e39b3ac.jpg"
+                alt="group"
+              />
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <h6>Small Groups</h6>
+              <h2 class="text-white">Life is Better Together</h2>
+              <p class="text-white-50 fw-bold">
+                Small groups are where real community happens. It's where you
+                can be known, grow in faith, and find friends who become family.
+              </p>
+              <a class="btn text-white" href="#">Find a Group</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Hopes -->
+      <section id="hopes" class="bg-dark">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6">
+              <div class="image">
+                <img
+                  class="w-100 h-100 rounded-4"
+                  src="../assets/images/photo-1503454537195-1dcabb73ffb9.jpg"
+                  alt="kid"
+                />
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <div class="content d-flex flex-column justify-content-center">
+                <h6>For Families</h6>
+                <h2 class="text-white fw-bold">Hope City Kids</h2>
+                <p class="text-white-50">
+                  We believe every kid deserves to know they're loved by God.
+                  Our programs are designed to be safe, fun, and age-appropriate
+                  for birth through 5th grade.
+                </p>
+                <ul class="list-unstyled">
+                  <li class="text-white-50">
+                    <i class="fa-solid fa-check text-success"></i>All volunteers
+                    are background checked
+                  </li>
+                  <li></li>
+                  <li class="text-white-50">
+                    <i class="fa-solid fa-check text-success"></i>Secure
+                    check-in/check-out system
+                  </li>
+                  <li></li>
+                  <li class="text-white-50">
+                    <i class="fa-solid fa-check text-success"></i>Available at
+                    all services
+                  </li>
+                  <li></li>
+                </ul>
+                <a class="btn text-white" href="#">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer id="footer" class="bg-dark">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-3 col-md-6">
+            <a class="text-white text-decoration-none" href="#"
+              >Hope City Church</a
+            >
+            <p class="text-white-50 my-4">
+              Hope City Church is a welcoming community in Austin, TX where
+              everyone belongs. Join us Sundays at 9:00 AM or 11:00 AM.
+            </p>
+            <ul class="list-unstyled d-flex">
+              <li>
+                <a class="text-white-50" href="#"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a class="text-white-50" href="#"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a class="text-white-50" href="#"
+                  ><i class="fa-brands fa-youtube"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-white">Visit</h5>
+            <ul class="list-unstyled">
+              <li class="mb-3">
+                <a class="text-decoration-none text-white-50" href="#"
+                  >Service Times</a
+                >
+              </li>
+              <li class="mb-3">
+                <a class="text-decoration-none text-white-50" href="#"
+                  >Plan Your Visit</a
+                >
+              </li>
+              <li class="mb-3">
+                <a class="text-decoration-none text-white-50" href="#"
+                  >What to Expect</a
+                >
+              </li>
+              <li>
+                <a class="text-decoration-none text-white-50" href="#"
+                  >Directions</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-white">Connect</h5>
+            <ul class="list-unstyled">
+              <li class="mb-3">
+                <a class="text-decoration-none text-white-50" href="#"
+                  >About Us</a
+                >
+              </li>
+              <li class="mb-3">
+                <a class="text-decoration-none text-white-50" href="#"
+                  >Join a Group</a
+                >
+              </li>
+              <li class="mb-3">
+                <a class="text-decoration-none text-white-50" href="#">Serve</a>
+              </li>
+              <li>
+                <a class="text-decoration-none text-white-50" href="#">Give</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-white">Resources</h5>
+            <ul class="list-unstyled">
+              <li class="mb-3">
+                <a class="text-decoration-none text-white-50" href="#"
+                  >Watch Sermans</a
+                >
+              </li>
+              <li class="mb-3">
+                <a class="text-decoration-none text-white-50" href="#"
+                  >Podcast</a
+                >
+              </li>
+              <li class="mb-3">
+                <a class="text-decoration-none text-white-50" href="#"
+                  >Hope City Kids</a
+                >
+              </li>
+              <li>
+                <a class="text-decoration-none text-white-50" href="#"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr class="text-white-50" />
+        <div class="row justify-content-between">
+          <div class="col-lg-4">
+            <h5 class="text-white">Location</h5>
+            <h6 class="text-white-50">1200 Grace Avenue</h6>
+            <h6 class="text-white-50">Austin, TX 78701</h6>
+          </div>
+          <div class="col-lg-4">
+            <h5 class="text-white">Contact</h5>
+            <a
+              class="text-decoration-none text-white-50 d-block"
+              href="tel:0552345678"
+              >(555) 234-5678</a
+            >
+            <a
+              class="text-decoration-none text-white-50"
+              href="mailto:hello@hopecitychurch.com"
+              >hello@hopecitychurch.com
+            </a>
+          </div>
+          <div class="col-lg-4">
+            <h5 class="text-white">Service Times</h5>
+            <h6 class="text-white-50">Sundays 9:00 AM & 11:00 AM</h6>
+            <h6 class="text-white-50">Wednesday 7:00 PM</h6>
+          </div>
+        </div>
+        <hr class="text-white-50" />
+        <div class="d-flex justify-content-between">
+          <p class="text-white-50">
+            © 2025 Hope City Church. All rights reserved.
+          </p>
+          <ul class="list-unstyled d-flex">
+            <li class="">
+              <a class="text-decoration-none text-white-50" href="#"
+                >Privacy Policy</a
+              >
+            </li>
+            <li>
+              <a class="text-decoration-none text-white-50 mx-2" href="#"
+                >Terms of Use</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

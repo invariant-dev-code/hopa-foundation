@@ -43,6 +43,24 @@ body {
   .watch-page #podcast .right {
     margin-top: 25px;
   }
+  .connect-page #connect h1,
+  .connect-page #connect h2,
+  .connect-page #groups #visit h1,
+  .connect-page #groups #visit h2,
+  .connect-page #groups h1,
+  .connect-page #groups h2,
+  .connect-page #hopes h1,
+  .connect-page #hopes h2 {
+    font-size: 40px !important;
+  }
+  .connect-page #groups h6,
+  .connect-page #hopes h6 {
+    margin-top: 20px;
+  }
+  .connect-page #groups .content,
+  .connect-page #hopes .content {
+    height: 400px !important;
+  }
 }
 @media (max-width: 991.98px) {
   nav .logo {
@@ -431,6 +449,86 @@ nav .btn:hover {
   background-color: #f59e0b;
 }
 .watch-page #main #podcast .right i {
+  background-color: #d97706;
+}
+
+.connect-page #main #connect {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("../images/photo-1529156069898-49953e39b3ac.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 100px 0;
+}
+.connect-page #main #connect h6 {
+  color: #f59e0b;
+}
+.connect-page #main #connect h1 {
+  font-size: 60px;
+}
+.connect-page #main #visit {
+  padding: 90px 0;
+}
+.connect-page #main #visit h6,
+.connect-page #main #visit i,
+.connect-page #main #visit a {
+  color: #f59e0b;
+}
+.connect-page #main #visit h2 {
+  font-size: 50px;
+}
+.connect-page #main #visit i {
+  margin-right: 10px;
+}
+.connect-page #main #visit form {
+  background-color: #383838;
+}
+.connect-page #main #visit form input,
+.connect-page #main #visit form select {
+  background-color: #383838;
+}
+.connect-page #main #visit form .btn {
+  background-color: #f59e0b;
+  transition: background-color 0.5s;
+}
+.connect-page #main #visit form .btn:hover {
+  background-color: #d97706;
+}
+.connect-page #main #faq {
+  padding: 90px 0;
+}
+.connect-page #main #groups {
+  padding: 90px 0;
+}
+.connect-page #main #groups h6 {
+  color: #f59e0b;
+}
+.connect-page #main #groups h2 {
+  font-size: 60px;
+}
+.connect-page #main #groups .btn {
+  background-color: #f59e0b;
+  transition: background-color 0.5s;
+}
+.connect-page #main #groups .btn:hover {
+  background-color: #d97706;
+}
+.connect-page #main #hopes {
+  padding-top: 80px;
+}
+.connect-page #main #hopes h6 {
+  color: #f59e0b;
+}
+.connect-page #main #hopes h2 {
+  font-size: 60px;
+}
+.connect-page #main #hopes .image,
+.connect-page #main #hopes .content {
+  height: 800px;
+}
+.connect-page #main #hopes .btn {
+  background-color: #f59e0b;
+  transition: background-color 0.5s;
+}
+.connect-page #main #hopes .btn:hover {
   background-color: #d97706;
 }
 
