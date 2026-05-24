@@ -32,7 +32,7 @@
     <!-- Main js -->
     <script src="../assets/js/main.js" defer></script>
   </head>
-  <body class="watch-page">
+  <body class="give-page">
     <!-- Header -->
     <header id="header" class="py-2">
       <div class="container">
@@ -79,200 +79,138 @@
         </nav>
       </div>
     </header>
+    <!-- Main -->
     <main id="main">
-      <!-- Watch -->
-      <section id="watch">
+      <!-- Support -->
+      <section id="support" class="bg-dark">
+        <div class="support-content text-center">
+          <h6>Support Our Mission</h6>
+          <h1 class="text-white fw-bold">Generosity Changes Everything</h1>
+          <p class="text-white-50 w-50 m-auto">
+            Your generosity makes ministry possible. Every gift helps us reach
+            more people with hope, serve our community, and invest in the next
+            generation.
+          </p>
+        </div>
+      </section>
+      <!-- Give -->
+      <section id="give" class="bg-black">
         <div class="container">
           <div class="row">
-            <div class="col-lg-6 col-md-6">
-              <div class="watch-content">
-                <h6>Latest Message</h6>
-                <h1 class="text-white fw-bold">Peace in the Storm</h1>
+            <div class="col-lg-4 col-md-4">
+              <div
+                class="gift text-center bg-dark rounded-4 d-flex flex-column justify-content-center"
+              >
+                <h5 class="text-white">One-Time Gift</h5>
                 <p class="text-white-50">
-                  Discover how to find peace that doesn't depend on your
-                  circumstances.
+                  Give a single gift to support Hope City.
                 </p>
-                <h6 class="text-white-50 mb-3">
-                  Pastor David Chen · January 19, 2025 · 38:24
-                </h6>
-                <a class="btn fw-bold text-white py-3 px-5" href="#"
-                  ><i class="fa-solid fa-play"></i> Watch Now</a
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <div
+                class="gift text-center bg-dark rounded-4 d-flex flex-column justify-content-center"
+              >
+                <h5 class="text-white">Recurring Gift</h5>
+                <p class="text-white-50">
+                  Set up automatic giving on a weekly, bi-weekly, or monthly
+                  basis.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <div
+                class="gift text-center bg-dark rounded-4 d-flex flex-column justify-content-center"
+              >
+                <h5 class="text-white">Stock & Assets</h5>
+                <p class="text-white-50">
+                  Donate stocks, mutual funds, or other assets.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="online bg-dark mt-5 rounded-4 text-center py-5">
+            <h4 class="text-white mb-3">Give Online</h4>
+            <h6 class="text-white-50">Select Amount</h6>
+            <div class="mt-2">
+              <span class="text-white-50 border d-inline-block">$25</span>
+              <span class="text-white-50 border d-inline-block">$50</span>
+              <span class="text-white-50 border d-inline-block">$100</span>
+            </div>
+            <div class="mt-2">
+              <span class="text-white-50 border d-inline-block">$250</span>
+              <span class="text-white-50 border d-inline-block">$500</span>
+              <span class="text-white-50 border d-inline-block">Other</span>
+            </div>
+            <div>
+              <label class="text-white-50 mt-3" for="amount"
+                >Custom Amount</label
+              >
+              <input
+                id="amount"
+                class="form-control m-auto w-50 bg-dark text-white"
+                type="number"
+                placeholder="$ 0.00"
+              />
+            </div>
+            <div>
+              <label class="text-white-50 mt-3" for="design"
+                >Designate to</label
+              >
+              <select
+                id="design"
+                class="form-control m-auto w-50 bg-dark text-white"
+              >
+                <option>General Fund</option>
+                <option>Missions</option>
+                <option>Building Fund</option>
+                <option>Benevolence</option>
+              </select>
+            </div>
+            <input
+              class="btn text-white mt-3 w-50"
+              type="submit"
+              value="Continue to Give"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- Ways -->
+      <section id="ways" class="bg-dark">
+        <div class="container">
+          <h2 class="text-white text-center mb-4">Other Ways to Give</h2>
+          <div class="row justify-content-center">
+            <div class="col-lg-8 d-flex gap-3 flex-wrap">
+              <div class="way bg-black p-5 rounded-4">
+                <h5 class="text-white">Give by Text</h5>
+                <p class="text-white-50">
+                  Text any amount to 84321 to give instantly.
+                </p>
+                <p class="text-white-50">Example: Text "100" to give $100</p>
+              </div>
+              <div class="way bg-black p-5 rounded-4">
+                <h5 class="text-white">Give by Mail</h5>
+                <p class="text-white-50">
+                  Send a check made out to "Hope City Church" to:
+                </p>
+                <p class="text-white-50">1200 Grace Avenue</p>
+                <p class="text-white-50">Austin, TX 78701</p>
+              </div>
+              <div class="way bg-black p-5 rounded-4">
+                <h5 class="text-white">Give In Person</h5>
+                <p class="text-white-50">
+                  Drop your gift in the offering boxes located at the exits
+                  during any service.
+                </p>
+              </div>
+              <div class="way bg-black p-5 rounded-4">
+                <h5 class="text-white">Stock & Assets</h5>
+                <p class="text-white-50">
+                  Donate stocks, mutual funds, or other appreciated assets.
+                </p>
+                <a class="text-decoration-none" href="#"
+                  >Contact us for details →</a
                 >
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-6">
-              <div class="image rounded-4 overflow-hidden position-relative">
-                <img
-                  class="w-100 rounded-4"
-                  src="../assets/images/photo-1507692049790-de58290a4334.jpg"
-                />
-                <i
-                  class="fa-solid fa-play position-absolute fa-2x text-white"
-                ></i>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Live -->
-      <section id="live" class="bg-dark">
-        <div class="container">
-          <div class="row justify-content-between align-items-center">
-            <div class="col-lg-3 col-md-4">
-              <div class="d-flex align-items-center">
-                <i class="fa-solid fa-circle-dot fa-2x text-danger"></i>
-                <div>
-                  <h6 class="text-white">Watch Live Every Sunday</h6>
-                  <h6 class="text-white-50">9:00 AM & 11:00 AM CST</h6>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-4">
-              <a
-                class="text-white text-decoration-none bg-danger py-3 px-4 rounded-3 d-inline-block"
-                href="#"
-                ><i class="fa-brands fa-youtube"></i>Watch on YouTube</a
-              >
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Messages -->
-      <section id="messages" class="bg-black">
-        <div class="container">
-          <h2 class="text-white mb-3">All Messages</h2>
-          <div class="row">
-            <div class="col-lg-4 col-md-6">
-              <div class="card bg-dark rounded-4 mb-4">
-                <div class="card-img overflow-hidden position-relative">
-                  <img
-                    class="w-100"
-                    src="../assets/images/photo-1507692049790-de58290a4334.jpg"
-                  />
-                  <i
-                    class="fa-solid fa-play fa-2x text-white position-absolute d-none"
-                  ></i>
-                </div>
-                <div class="card-body">
-                  <h6 class="card-title">Unshakeable</h6>
-                  <h5 class="card-subtitle text-white my-2">
-                    Peace in the Storm
-                  </h5>
-                  <p class="card-text text-white-50">
-                    Discover how to find peace that doesn't depend on your
-                    circumstances.
-                  </p>
-                  <p class="card-text text-white-50">
-                    Pastor David Chen · January 19, 2025
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="card bg-dark rounded-4 mb-4">
-                <div class="card-img overflow-hidden position-relative">
-                  <img
-                    class="w-100"
-                    src="../assets/images/photo-1473186505569-9c61870c11f9.jpg"
-                  />
-                  <i
-                    class="fa-solid fa-play fa-2x text-white position-absolute d-none"
-                  ></i>
-                </div>
-                <div class="card-body">
-                  <h6 class="card-title">Unshakeable</h6>
-                  <h5 class="card-subtitle text-white my-2">Faith Over Fear</h5>
-                  <p class="card-text text-white-50">
-                    Learn practical ways to choose faith when fear tries to take
-                    over.
-                  </p>
-                  <p class="card-text text-white-50">
-                    Pastor David Chen · January 12, 2025
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="card bg-dark rounded-4 mb-4">
-                <div class="card-img overflow-hidden position-relative">
-                  <img
-                    class="w-100"
-                    src="../assets/images/photo-1478737270239-2f02b77fc618.jpg"
-                  />
-                  <i
-                    class="fa-solid fa-play fa-2x text-white position-absolute d-none"
-                  ></i>
-                </div>
-                <div class="card-body">
-                  <h6 class="card-title">Unshakeable</h6>
-                  <h5 class="card-subtitle text-white my-2">Built to Last</h5>
-                  <p class="card-text text-white-50">
-                    Building a foundation of faith that can weather any storm.
-                  </p>
-                  <p class="card-text text-white-50">
-                    Pastor David Chen · January 5, 2025
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="card bg-dark rounded-4">
-                <div class="card-img overflow-hidden position-relative">
-                  <img
-                    class="w-100"
-                    src="../assets/images/photo-1544427920-c49ccfb85579.jpg"
-                  />
-                  <i
-                    class="fa-solid fa-play fa-2x text-white position-absolute d-none"
-                  ></i>
-                </div>
-                <div class="card-body">
-                  <h6 class="card-title">Christmas at Hope City</h6>
-                  <h5 class="card-subtitle text-white my-2">
-                    The Gift of Hope
-                  </h5>
-                  <p class="card-text text-white-50">
-                    A Christmas Eve message about the hope Jesus brings to the
-                    world.
-                  </p>
-                  <p class="card-text text-white-50">
-                    Pastor Sarah Mitchell · December 24, 2024
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Podcast -->
-      <section id="podcast" class="bg-dark">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 col-md-6">
-              <h6>Podcast</h6>
-              <h2 class="text-white fw-bold">Listen Anywhere</h2>
-              <p class="text-white-50">
-                Take Hope City with you wherever you go. Subscribe to our
-                podcast and never miss a message.
-              </p>
-              <a class="btn btn-light" href="#"
-                ><i class="fa-brands fa-apple"></i>Apple Podcasts</a
-              >
-              <a class="btn btn-success" href="#"
-                ><i class="fa-brands fa-spotify"></i>Spotify</a
-              >
-            </div>
-            <div class="col-lg-6 col-md-6">
-              <div class="right p-5 rounded-4">
-                <i
-                  class="fa-solid fa-microphone text-white py-3 px-4 d-flex justify-content-center rounded-3"
-                ></i>
-                <h4 class="text-white my-2">Hope City Podcast</h4>
-                <p class="text-white">
-                  Weekly sermons and conversations about faith, life, and
-                  everything in between.
-                </p>
-                <p class="text-white-50">200+ Episodes · New Episodes Weekly</p>
               </div>
             </div>
           </div>

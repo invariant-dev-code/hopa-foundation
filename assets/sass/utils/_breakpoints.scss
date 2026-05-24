@@ -80,6 +80,19 @@
       }
     }
   }
+  // Give page
+  .give-page {
+    // Support
+    #support {
+      h1 {
+        font-size: 40px !important;
+      }
+    }
+    // Give
+    #give .gift {
+      margin-bottom: 25px !important;
+    }
+  }
 }
 
 // Small devices (landscape phones, less than 768px)
@@ -126,6 +139,13 @@
     // Missions
     #missions .mission {
       margin-bottom: 25px;
+    }
+  }
+  // Give
+  .give-page {
+    // Ways
+    #ways .way {
+      width: 100% !important;
     }
   }
 }

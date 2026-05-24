@@ -61,6 +61,12 @@ body {
   .connect-page #hopes .content {
     height: 400px !important;
   }
+  .give-page #support h1 {
+    font-size: 40px !important;
+  }
+  .give-page #give .gift {
+    margin-bottom: 25px !important;
+  }
 }
 @media (max-width: 991.98px) {
   nav .logo {
@@ -86,6 +92,9 @@ body {
   }
   .about-page #missions .mission {
     margin-bottom: 25px;
+  }
+  .give-page #ways .way {
+    width: 100% !important;
   }
 }
 #header {
@@ -532,6 +541,52 @@ nav .btn:hover {
   background-color: #d97706;
 }
 
+.give-page #main #support {
+  padding: 90px 0;
+}
+.give-page #main #support h1 {
+  font-size: 60px;
+}
+.give-page #main #support h6 {
+  color: #f59e0b;
+}
+.give-page #main #give {
+  padding: 120px 0;
+}
+.give-page #main #give .gift {
+  height: 250px;
+}
+.give-page #main #give .gift:hover {
+  border: 1px solid #f59e0b !important;
+}
+.give-page #main #give span {
+  padding: 15px 60px;
+  width: 150px;
+}
+.give-page #main #give span:hover {
+  border: 1px solid #f59e0b !important;
+  background-color: #d97706;
+  color: #fff !important;
+}
+.give-page #main #give input::placeholder {
+  color: #fff;
+}
+.give-page #main #give .btn {
+  background-color: #f59e0b;
+  transition: background-color 0.5s;
+}
+.give-page #main #give .btn:hover {
+  background-color: #d97706;
+}
+.give-page #main #ways {
+  padding: 100px 0;
+}
+.give-page #main #ways h2 {
+  font-size: 60px;
+}
+.give-page #main #ways a {
+  color: #f59e0b;
+}
 #footer {
   padding: 80px 0;
 }

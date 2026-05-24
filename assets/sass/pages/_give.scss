@@ -1,0 +1,55 @@
+@use "../utils/variables";
+
+.give-page #main {
+  // Support
+  #support {
+    padding: 90px 0;
+    h1 {
+      font-size: 60px;
+    }
+    h6 {
+      color: variables.$primary-color;
+    }
+  }
+  // Gift
+  #give {
+    padding: 120px 0;
+    .gift {
+      height: 250px;
+      &:hover {
+        border: 1px solid variables.$primary-color !important;
+      }
+    }
+    span {
+      padding: 15px 60px;
+      width: 150px;
+      &:hover {
+        border: 1px solid variables.$primary-color !important;
+        background-color: variables.$second-color;
+        color: #fff !important;
+      }
+    }
+    input::placeholder {
+      color: #fff;
+    }
+    .btn {
+      background-color: variables.$primary-color;
+      transition: background-color 0.5s;
+      &:hover {
+        background-color: variables.$second-color;
+      }
+    }
+  }
+  // Ways
+  #ways {
+    padding: 100px 0;
+    h2 {
+      font-size: 60px;
+    }
+    a {
+      color: variables.$primary-color;
+    }
+    .way {
+    }
+  }
+}
